@@ -16,6 +16,8 @@ async def hello(ctx):
 async def commands(ctx):
    await ctx.channel.send(Commands.commandList)
 
+
+
 @bot.command()
 async def get(ctx, arg):
   if arg == "CAD":
