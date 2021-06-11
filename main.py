@@ -16,6 +16,11 @@ async def hello(ctx):
 async def commands(ctx):
    await ctx.channel.send(Commands.commandList)
 
+@bot.command()
+async def get(ctx, arg):
+  if arg == "CAD":
+     await ctx.channel.send('Here is the link to the CAD: https://ftc8404-ultimate-goal-robot-360.netlify.app/')
+
 
 keep_alive()
 bot.run(os.environ['TOKEN'])
