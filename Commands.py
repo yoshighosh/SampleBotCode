@@ -1,0 +1,1 @@
+commandList = "Here is a list of all of the current commands: \n\t**!hello** - Say hello \n\t**!help** - Get commands list "
