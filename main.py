@@ -20,6 +20,8 @@ async def commands(ctx):
 async def get(ctx, arg):
   if arg == "CAD":
      await ctx.channel.send('Here is the link to the CAD: https://ftc8404-ultimate-goal-robot-360.netlify.app/')
+  if arg == "PALS":
+     await ctx.channel.send('Here is the link to the PALS homepage: https://pals.quixilver8404.org/')
 
 
 keep_alive()
