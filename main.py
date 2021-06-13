@@ -29,6 +29,8 @@ async def get(ctx, *args):
     await ctx.channel.send('Here is the link to the PALS match scouting page: https://pals.quixilver8404.org/match-scouting')
   elif command == "pregamescouting":
     await ctx.channel.send('Here is the link to the PALS pregame scouting page: https://pals.quixilver8404.org/pre-game-scouting')
+  elif command == "competitionoverview":
+    await ctx.channel.send('Here is the link to the PALS competition overview: https://pals.quixilver8404.org/competition-overview')
 
 
 keep_alive()
